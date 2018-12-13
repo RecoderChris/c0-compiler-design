@@ -1,0 +1,92 @@
+const int true=1,false=0;
+const char T='Y',F='N';
+const char any='y';
+int n,a[10],sum;
+char ch;
+
+int factorial(int n){
+	int result;
+	if(n == 1){
+		result = 1;
+	}
+	else{
+		result = n * factorial(n-1);
+	}
+	return(result);
+	printf("Run success!");
+}
+int isprime(int n){
+	int j;
+	int div,mod;
+	j=2;div=0;mod=0;
+	do{
+		div=n/j;
+		mod=n-div*j;
+		j=j+1;	
+	}while(mod!=0)
+	if(j>n){
+		return(true);
+	}	
+	else{
+		return(false);
+	}
+}
+void testchar{
+	const char ch1='_',ch2='1',ch3='H',ch4='+',ch5='*',ch6='/',ch7='-';
+	int x, y, z;
+	x = +32 - -81;
+	z = x + -0001 - -000;
+	y = +000;
+	printf("! # $ % & ' ( ) * + , - . / 0 : ; < = > ? @ A [ \ ] ^ _ ` a { | } ~",3*5+6-4);
+}
+void getback(int digits){
+	sum=0;
+	do{
+		sum=sum*10+a[digits];
+		digits=digits-1;	
+	}while(digits>=0)
+}
+void main(){
+	int i,is,sum,fac;
+	scanf(n,ch);
+	i = 0;
+	do{
+		i = i + 1;	
+	}while(i != ch)
+	printf("ascii value of ",ch);
+	printf(" is ",i);
+	is=isprime(n);
+	if(is==true){
+		printf("The sentence [input value n is prime] is true");
+	}
+	else{
+		printf("The sentence [input value n is prime] is false");	
+	}
+	i = 0;
+	do{
+		a[i]=n-10*(n/10);
+		n=n/10;	
+		i=i+1;
+	}while(n!=0)
+	getback(i-1);
+	if(sum==n){
+		printf("sum is equal to n,right!");
+	}
+	else{
+		printf("error!");
+	}
+	switch(a[0]){
+		case 0:printf("n is an odd,last number is ",a[0]);
+		case 2:printf("n is an odd,last number is ",a[0]);
+		case 4:printf("n is an odd,last number is ",a[0]);
+		case 6:printf("n is an odd,last number is ",a[0]);
+		case 8:printf("n is an odd,last number is ",a[0]);
+		default:{
+			fac = factorial(10);
+			printf("n is not an odd,last number is ",a[0]);
+			printf("factorial(10) is equal to ",fac);
+		}
+	}
+	return;
+	return;
+}

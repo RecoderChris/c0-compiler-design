@@ -1,0 +1,6 @@
+﻿  C0_Compiler.c
+e:\c_debug\c0_compiler\c0_compiler\c0_compiler.c(12): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(243): note: 参见“freopen”的声明
+e:\c_debug\c0_compiler\c0_compiler\c0_compiler.c(13): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(243): note: 参见“freopen”的声明
+  C0_compiler.vcxproj -> E:\C_debug\C0_compiler\Debug\C0_compiler.exe

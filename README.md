@@ -2,7 +2,9 @@
 
 ## Basic Introduction
 The repostory includes a complete design of *C0-compiler*, fully coded in **C language** and referring to the most classical compiler architecture. Besides the modern basic architecture, the author employed several **optimized methods** to obtain more efficient ultimate *MIPS* code. 
-More than the code version, the repostort also contains a final concluding article about my design and plenty of typical testing code which is coded in **C0 language**, contributed by my classmates and of course, myself. 
+
+More than the code version, the repostory also contains a final concluding article about my design and plenty of typical testing code which is coded in **C0 language**, contributed by my classmates and of course, myself. 
+
 This code is also author's final semester assignment in ***Course: C0-compiler-design*** in *SCSE BUAA*, 2018 Fall, directed by *Prof.Zhang Li*, thankfully and respectively.
 
 ## Basic Compiling Process

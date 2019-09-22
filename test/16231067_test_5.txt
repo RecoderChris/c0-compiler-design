@@ -1,0 +1,16 @@
+int x;
+void recurve(int x){
+	if(x==1){
+		return 1;
+	}
+	else{
+		return(recurve(x-1)*x);
+	}
+}
+
+void main(){
+	int a;
+	a=4;
+	printf(recurve(a));
+	return;
+}

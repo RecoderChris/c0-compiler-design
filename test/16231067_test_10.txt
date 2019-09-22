@@ -1,0 +1,12 @@
+Void test(int a,char c){
+   Int num[100];
+   Int c;
+   C=100;
+   Num[101]=C;	
+}
+Void main(){
+   Char i,j;
+   I=¡¯a¡¯;
+   J=¡¯b¡¯;
+   Test(i,j);
+}

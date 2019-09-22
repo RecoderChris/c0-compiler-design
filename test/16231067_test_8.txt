@@ -1,0 +1,10 @@
+Void hello(int a,int b){
+C = a + b;
+Return c;
+}
+Void main(){
+   Int x,y;
+   X=4;
+   Y=9;
+   Printf(hello(x,y));
+}

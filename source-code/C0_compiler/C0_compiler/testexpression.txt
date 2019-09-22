@@ -1,0 +1,23 @@
+const int con_int_1=1,con_int_2=2;
+int var_int_array_1[10];
+
+int test_factorial(int n){
+    if (n == 0) 
+        return (1);
+    else
+        return (n* test_factorial(n - 1));
+}
+
+int test_para(int a, int b, int c, int con_int_1, int con_int_2){
+    return (a + b + c + con_int_1 + con_int_2);
+}
+
+void test_expression{ 
+    var_int_array_1[1] = con_int_2 / 1 + 1 + test_para(1, 2, 3, 4, 5);
+    printf("The result is ", -con_int_1 - var_int_array_1[1] + +005 + 'a' + test_factorial(3) + -1 * (2 + 1));
+}
+
+void main(){
+	test_expression;
+	return;
+}

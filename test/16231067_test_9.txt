@@ -1,0 +1,11 @@
+Void hello(int a){
+   Switch(a){
+       Case ¡®a¡¯:printf(¡°error¡±);
+       Default:return;
+   }
+}
+Void main(){
+Int c;
+C=19;
+Hello(c);
+}

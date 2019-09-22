@@ -1,0 +1,4 @@
+void testchare{
+	char c;
+	c='c
+}

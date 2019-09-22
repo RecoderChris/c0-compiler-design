@@ -1,0 +1,40 @@
+input:
+e 1 2 3
+output:
+eThree integers
+1
+2
+3
+-193
+
+
+
+
+input:
+r 3
+output:
+rFull permutation, please input a number(<100)
+3
+Finished!
+
+
+
+
+input:
+n
+output:
+
+
+
+
+input:
+v 2
+output:
+b
+
+
+
+input:
+w
+output:
+Please input e/r/n/v instead of w

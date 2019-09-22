@@ -1,0 +1,19 @@
+void switch_char(char c){
+    switch(c){
+        case 'a':{ 
+            printf("aaaaa");
+        }
+        case 'b':{ 
+            printf("bbbbb");
+        }
+        default : { 
+            printf("ccccc");
+        }
+    }
+}
+void main(){
+	char x;
+	x='a';
+	switch_char(x);
+	return;
+}

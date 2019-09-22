@@ -1,0 +1,4 @@
+void main(){
+	printf(('a'+5*-1*2)/2-48+123);
+	return;
+}

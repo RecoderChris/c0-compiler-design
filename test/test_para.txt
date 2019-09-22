@@ -1,0 +1,13 @@
+int foo1{
+	return(1);
+}
+int foo2{
+	return(2);
+}
+int foo(int x,int y){
+	return(x+y);
+}
+void main(){
+	printf(foo(foo1,foo2));
+	return;
+}

@@ -84,4 +84,4 @@ If need, you could constract this with the classical process mentioned before.
 The mainly optimization methods the coder employ include *Constant Combination*, *DAG graph calculation*, *counting to decide global register*, *peep optimization*. In fact compiling optimization is really a challenging mission, even harder than the whole architecture. And ***optimization never ends***.
 
 ## Concluding Article
-Please click [here](files/introduction_to_my_compiler.doc) to download the concluding document of the whole compiler design which is in `.doc` format. It includes the really detail designing thoughts and consideration, and includes some evaluation in the whole architecture. And of course the designer's **journey of mind** in the whole development.
+Please click [here](files/introduction_to_my_compiler.doc) to download the concluding document of the whole compiler design which is in `.doc` format. It includes the really detail designing thoughts and consideration, and includes some evaluation in the whole architecture. And of course the designer's journey of mind in the whole development.

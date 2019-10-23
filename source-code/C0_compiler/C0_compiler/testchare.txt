@@ -1,4 +1,0 @@
-Void main(){
-   Char i,j;
-   J='b
-}

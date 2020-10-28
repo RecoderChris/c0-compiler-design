@@ -5,7 +5,7 @@ The repostory includes a complete design of *C0-compiler*, fully coded in **C la
 
 More than the code version, the repostory also contains a final concluding article about my design and plenty of typical testing code which is coded in **C0 language**, contributed by my classmates and of course, myself. 
 
-This code is also author's final semester assignment in ***Course: C0-compiler-design*** in *SCSE BUAA*, 2018 Fall, directed by *Prof.Zhang Li*, thankfully and respectively.
+This code is also author's final semester assignment in ***Course: C0-compiler-design*** in *SCSE BUAA*, 2018 Fall, directed by *Prof.Zhang Li*.
 
 ## Basic Compiling Process
 

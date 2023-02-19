@@ -18,11 +18,6 @@ We have 3 different difficulty division in our course, which have been given as 
 
 ![Difficulty Division](pics/difficulty-division.png "difficulty-division")
 
-- Mission Schedule
-
-Our **Developing schedule** is shown as follows!
-
-![Mission-schedule](pics/schedule.png "schedule")
 
 - [**C0-Grammar**: A Special Teaching Grammar](requirement/C0-grammar.doc)
 
